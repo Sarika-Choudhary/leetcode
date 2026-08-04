@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Sarika-Choudhary/leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Sarika-Choudhary/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/Sarika-Choudhary/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0704-binary-search](https://github.com/Sarika-Choudhary/leetcode/tree/master/0704-binary-search) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -39,4 +40,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0152-maximum-product-subarray](https://github.com/Sarika-Choudhary/leetcode/tree/master/0152-maximum-product-subarray) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/Sarika-Choudhary/leetcode/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
