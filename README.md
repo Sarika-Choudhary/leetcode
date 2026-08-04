@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Sarika-Choudhary/leetcode/tree/master/0002-add-two-numbers) |
 | [0024-swap-nodes-in-pairs](https://github.com/Sarika-Choudhary/leetcode/tree/master/0024-swap-nodes-in-pairs) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Sarika-Choudhary/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Sarika-Choudhary/leetcode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Sarika-Choudhary/leetcode/tree/master/0328-odd-even-linked-list) |
 ## Math
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/Sarika-Choudhary/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/Sarika-Choudhary/leetcode/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/Sarika-Choudhary/leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Sorting
@@ -50,4 +52,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0704-binary-search](https://github.com/Sarika-Choudhary/leetcode/tree/master/0704-binary-search) |
+## Two Pointers
+|  |
+| ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/Sarika-Choudhary/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 <!---LeetCode Topics End-->
