@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Sarika-Choudhary/leetcode/tree/master/0022-generate-parentheses) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sarika-Choudhary/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Sarika-Choudhary/leetcode/tree/master/0152-maximum-product-subarray) |
 ## Binary Search
@@ -75,4 +76,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sarika-Choudhary/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+## String
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Sarika-Choudhary/leetcode/tree/master/0022-generate-parentheses) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Sarika-Choudhary/leetcode/tree/master/0022-generate-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Sarika-Choudhary/leetcode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
