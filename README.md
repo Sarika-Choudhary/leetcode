@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Sarika-Choudhary/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/Sarika-Choudhary/leetcode/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/Sarika-Choudhary/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/Sarika-Choudhary/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Sorting
 |  |
 | ------- |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Sarika-Choudhary/leetcode/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Sarika-Choudhary/leetcode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Sarika-Choudhary/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/Sarika-Choudhary/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Stack
 |  |
 | ------- |
@@ -111,15 +113,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Sarika-Choudhary/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sarika-Choudhary/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/Sarika-Choudhary/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sarika-Choudhary/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/Sarika-Choudhary/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Binary Tree
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Sarika-Choudhary/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sarika-Choudhary/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/Sarika-Choudhary/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Quicksort
 |  |
 | ------- |
@@ -132,8 +137,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Sarika-Choudhary/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/Sarika-Choudhary/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sarika-Choudhary/leetcode/tree/master/0011-container-with-most-water) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/Sarika-Choudhary/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 <!---LeetCode Topics End-->
