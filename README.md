@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sarika-Choudhary/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Sarika-Choudhary/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Sarika-Choudhary/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0041-first-missing-positive](https://github.com/Sarika-Choudhary/leetcode/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Sarika-Choudhary/leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Sarika-Choudhary/leetcode/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sarika-Choudhary/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/Sarika-Choudhary/leetcode/tree/master/0041-first-missing-positive) |
 | [0141-linked-list-cycle](https://github.com/Sarika-Choudhary/leetcode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Sarika-Choudhary/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Sarika-Choudhary/leetcode/tree/master/0169-majority-element) |
