@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/Sarika-Choudhary/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sarika-Choudhary/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Sarika-Choudhary/leetcode/tree/master/0152-maximum-product-subarray) |
+| [0169-majority-element](https://github.com/Sarika-Choudhary/leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Sarika-Choudhary/leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Sarika-Choudhary/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/Sarika-Choudhary/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Sarika-Choudhary/leetcode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Sarika-Choudhary/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/Sarika-Choudhary/leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Sarika-Choudhary/leetcode/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/Sarika-Choudhary/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sarika-Choudhary/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -53,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Sarika-Choudhary/leetcode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/Sarika-Choudhary/leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Sarika-Choudhary/leetcode/tree/master/0217-contains-duplicate) |
 ## Dynamic Programming
 |  |
@@ -149,4 +152,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sarika-Choudhary/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Sarika-Choudhary/leetcode/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Sarika-Choudhary/leetcode/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Sarika-Choudhary/leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
