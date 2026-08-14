@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Sarika-Choudhary/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0041-first-missing-positive](https://github.com/Sarika-Choudhary/leetcode/tree/master/0041-first-missing-positive) |
 | [0141-linked-list-cycle](https://github.com/Sarika-Choudhary/leetcode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Sarika-Choudhary/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Sarika-Choudhary/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0022-generate-parentheses](https://github.com/Sarika-Choudhary/leetcode/tree/master/0022-generate-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Sarika-Choudhary/leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Backtracking
@@ -239,4 +241,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/Sarika-Choudhary/leetcode/tree/master/0543-diameter-of-binary-tree) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Sarika-Choudhary/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
