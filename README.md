@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Sarika-Choudhary/leetcode/tree/master/0035-search-insert-position) |
 | [0041-first-missing-positive](https://github.com/Sarika-Choudhary/leetcode/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Sarika-Choudhary/leetcode/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/Sarika-Choudhary/leetcode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Sarika-Choudhary/leetcode/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sarika-Choudhary/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sarika-Choudhary/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Sarika-Choudhary/leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Sarika-Choudhary/leetcode/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/Sarika-Choudhary/leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sarika-Choudhary/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Sarika-Choudhary/leetcode/tree/master/0152-maximum-product-subarray) |
 ## Binary Search
@@ -235,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Sarika-Choudhary/leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Sarika-Choudhary/leetcode/tree/master/0169-majority-element) |
 ## Counting
 |  |
