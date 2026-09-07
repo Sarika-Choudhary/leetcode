@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/Sarika-Choudhary/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/Sarika-Choudhary/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Sarika-Choudhary/leetcode/tree/master/0704-binary-search) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Sarika-Choudhary/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Sarika-Choudhary/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0283-move-zeroes](https://github.com/Sarika-Choudhary/leetcode/tree/master/0283-move-zeroes) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sarika-Choudhary/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Sarika-Choudhary/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Stack
 |  |
 | ------- |
@@ -276,4 +278,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/Sarika-Choudhary/leetcode/tree/master/0136-single-number) |
+## Simulation
+|  |
+| ------- |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Sarika-Choudhary/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
