@@ -11,25 +11,17 @@
  */
 class Solution {
 public:
+void rightdfs(TreeNode* node, int level, vector<int> &res){
+    if(!node)
+    return;
+    if(res.size()==level)
+    res.push_back(node->val);
+    rightdfs(node->right,level+1,res);
+    rightdfs(node->left,level+1,res);
+}
     vector<int> rightSideView(TreeNode* root) {
-        if(root == NULL)
-         return {};
-        vector<int>ans;
-        queue<TreeNode*>q;
-        q.push(root);
-        while(!q.empty()){
-            int n=q.size();
-            for (int i=0;i<n;i++){
-                TreeNode* node=q.front();
-                q.pop();
-                if(i == n-1)
-                ans.push_back(node->val);
-                if(node->left)
-                q.push(node->left);
-                if(node->right)
-                q.push(node->right);
-            }
-        }
-        return ans;
+        vector<int>res;
+        rightdfs(root,0,res);
+        return res;
     }
 };
