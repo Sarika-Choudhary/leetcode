@@ -1,28 +1,15 @@
-<h2><a href="https://leetcode.com/problems/check-completeness-of-a-binary-tree">998. Check Completeness of a Binary Tree</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary tree, determine if it is a <em>complete binary tree</em>.</p>
+# Check Completeness of a Binary Tree
 
-<p>In a <strong><a href="http://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees" target="_blank">complete binary tree</a></strong>, every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between <code>1</code> and <code>2<sup>h</sup></code> nodes inclusive at the last level <code>h</code>.</p>
+## Intuition
+A complete tree has all levels full except possibly the last which is filled left-to-right. Use BFS and check if any null is followed by non-null.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-1.png" style="width: 180px; height: 145px;" />
-<pre>
-<strong>Input:</strong> root = [1,2,3,4,5,6]
-<strong>Output:</strong> true
-<strong>Explanation:</strong> Every level before the last is full (ie. levels with node-values {1} and {2, 3}), and all nodes in the last level ({4, 5, 6}) are as far left as possible.
-</pre>
+## Approach
+1. Use level-order traversal with queue (push null for leaf children)
+2. Track if null node has been encountered
+3. Once nullFound is true, any non-null node means incomplete tree
+4. Return false if we see non-null after null
+5. Return true if BFS completes successfully
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-2.png" style="width: 200px; height: 145px;" />
-<pre>
-<strong>Input:</strong> root = [1,2,3,4,5,null,7]
-<strong>Output:</strong> false
-<strong>Explanation:</strong> The node with value 7 isn&#39;t as far left as possible.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li>The number of nodes in the tree is in the range <code>[1, 100]</code>.</li>
-	<li><code>1 &lt;= Node.val &lt;= 1000</code></li>
-</ul>
+## Complexity Analysis
+- **Time Complexity:** O(n) - visit each node once
+- **Space Complexity:** O(w) - maximum level width

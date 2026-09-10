@@ -1,30 +1,17 @@
-<h2><a href="https://leetcode.com/problems/binary-search">792. Binary Search</a></h2><h3>Easy</h3><hr><p>Given an array of integers <code>nums</code> which is sorted in ascending order, and an integer <code>target</code>, write a function to search <code>target</code> in <code>nums</code>. If <code>target</code> exists, then return its index. Otherwise, return <code>-1</code>.</p>
+# Binary Search
 
-<p>You must write an algorithm with <code>O(log n)</code> runtime complexity.</p>
+## Intuition
+Divide search space in half each time. If target equals mid, return mid. Otherwise, eliminate half based on comparison.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Approach
+1. Initialize left = 0, right = n-1
+2. While left <= right:
+   - Calculate mid = left + (right - left) / 2
+   - If nums[mid] == target, return mid
+   - If nums[mid] < target, left = mid + 1 (search right)
+   - Else right = mid - 1 (search left)
+3. Return -1 if not found
 
-<pre>
-<strong>Input:</strong> nums = [-1,0,3,5,9,12], target = 9
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> 9 exists in nums and its index is 4
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [-1,0,3,5,9,12], target = 2
-<strong>Output:</strong> -1
-<strong>Explanation:</strong> 2 does not exist in nums so return -1
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>-10<sup>4</sup> &lt; nums[i], target &lt; 10<sup>4</sup></code></li>
-	<li>All the integers in <code>nums</code> are <strong>unique</strong>.</li>
-	<li><code>nums</code> is sorted in ascending order.</li>
-</ul>
+## Complexity Analysis
+- **Time Complexity:** O(log n) - halve search space each iteration
+- **Space Complexity:** O(1) - only using pointers

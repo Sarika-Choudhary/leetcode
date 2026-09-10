@@ -1,35 +1,17 @@
-<h2><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters">3. Longest Substring Without Repeating Characters</a></h2><h3>Medium</h3><hr><p>Given a string <code>s</code>, find the length of the <strong>longest</strong> <span data-keyword="substring-nonempty"><strong>substring</strong></span> without duplicate characters.</p>
+# Longest Substring Without Repeating Characters
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Intuition
+Use a sliding window with a hash map to track the last seen position of each character. Expand the window and when a duplicate is found, shrink from the left.
 
-<pre>
-<strong>Input:</strong> s = &quot;abcabcbb&quot;
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> The answer is &quot;abc&quot;, with the length of 3. Note that <code>&quot;bca&quot;</code> and <code>&quot;cab&quot;</code> are also correct answers.
-</pre>
+## Approach
+1. Use unordered_map to store character -> last seen index
+2. Maintain left pointer (window start) and right pointer (iterating through string)
+3. For each character at right pointer:
+   - If character exists in map and is within current window, move left pointer
+   - Update character's last seen index
+   - Calculate current window length and update maximum
+4. Return the maximum length found
 
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;bbbbb&quot;
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> The answer is &quot;b&quot;, with the length of 1.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;pwwkew&quot;
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> The answer is &quot;wke&quot;, with the length of 3.
-Notice that the answer must be a substring, &quot;pwke&quot; is a subsequence and not a substring.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>0 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> consists of English letters, digits, symbols and spaces.</li>
-</ul>
+## Complexity Analysis
+- **Time Complexity:** O(n) - single pass through the string
+- **Space Complexity:** O(min(n, m)) - where m is the character set size (26 for lowercase letters)

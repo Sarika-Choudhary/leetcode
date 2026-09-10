@@ -1,32 +1,16 @@
-<h2><a href="https://leetcode.com/problems/contains-duplicate-ii">219. Contains Duplicate II</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <code>true</code> <em>if there are two <strong>distinct indices</strong> </em><code>i</code><em> and </em><code>j</code><em> in the array such that </em><code>nums[i] == nums[j]</code><em> and </em><code>abs(i - j) &lt;= k</code>.</p>
+# Contains Duplicate II
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Intuition
+Use hash map to store element -> last seen index. If current element exists in map and distance from last occurrence <= k, return true.
 
-<pre>
-<strong>Input:</strong> nums = [1,2,3,1], k = 3
-<strong>Output:</strong> true
-</pre>
+## Approach
+1. Create unordered_map for element -> index
+2. Iterate through array:
+   - If element exists in map and current_index - map[element] <= k:
+     - Return true
+   - Update map[element] = current_index
+3. Return false
 
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,0,1,1], k = 1
-<strong>Output:</strong> true
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,2,3,1,2,3], k = 2
-<strong>Output:</strong> false
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-	<li><code>0 &lt;= k &lt;= 10<sup>5</sup></code></li>
-</ul>
+## Complexity Analysis
+- **Time Complexity:** O(n) - single pass through array
+- **Space Complexity:** O(min(n, k)) - hash map size bounded by k

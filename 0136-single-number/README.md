@@ -1,37 +1,14 @@
-<h2><a href="https://leetcode.com/problems/single-number">136. Single Number</a></h2><h3>Easy</h3><hr><p>Given a <strong>non-empty</strong>&nbsp;array of integers <code>nums</code>, every element appears <em>twice</em> except for one. Find that single one.</p>
+# Single Number
 
-<p>You must&nbsp;implement a solution with a linear runtime complexity and use&nbsp;only constant&nbsp;extra space.</p>
+## Intuition
+XOR has property: a ^ a = 0 and a ^ 0 = a. XORing all numbers cancels out pairs, leaving only the single number.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Approach
+1. Initialize xorr = 0
+2. Iterate through all numbers:
+   - XOR each number with xorr
+3. Return xorr (contains the single number)
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [2,2,1]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [4,1,2,1,2]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">4</span></p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
-	<li><code>-3 * 10<sup>4</sup> &lt;= nums[i] &lt;= 3 * 10<sup>4</sup></code></li>
-	<li>Each element in the array appears twice except for one element which appears only once.</li>
-</ul>
+## Complexity Analysis
+- **Time Complexity:** O(n) - single pass through array
+- **Space Complexity:** O(1) - only using one variable

@@ -1,16 +1,16 @@
-<h2><a href="https://leetcode.com/problems/generate-parentheses">22. Generate Parentheses</a></h2><h3>Medium</h3><hr><p>Given <code>n</code> pairs of parentheses, write a function to <em>generate all combinations of well-formed parentheses</em>.</p>
+# Generate Parentheses
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<pre><strong>Input:</strong> n = 3
-<strong>Output:</strong> ["((()))","(()())","(())()","()(())","()()()"]
-</pre><p><strong class="example">Example 2:</strong></p>
-<pre><strong>Input:</strong> n = 1
-<strong>Output:</strong> ["()"]
-</pre>
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+## Intuition
+Use backtracking to build valid parentheses combinations. At each step, add an opening bracket if we haven't used all n opens, and add a closing bracket if it doesn't exceed open count.
 
-<ul>
-	<li><code>1 &lt;= n &lt;= 8</code></li>
-</ul>
+## Approach
+1. Use backtrack function with parameters: open count, close count, n, current string, and result
+2. Base case: when current string length equals 2*n, add to result
+3. Recursive cases:
+   - Add '(' if open < n (haven't used all opening brackets)
+   - Add ')' if close < open (closing bracket count doesn't exceed opening)
+4. Start with backtrack(0, 0, n, "", res)
+
+## Complexity Analysis
+- **Time Complexity:** O(4^n / √n) - number of valid parentheses sequences
+- **Space Complexity:** O(n) - recursion depth

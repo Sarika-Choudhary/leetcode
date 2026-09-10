@@ -1,27 +1,19 @@
-<h2><a href="https://leetcode.com/problems/symmetric-tree">101. Symmetric Tree</a></h2><h3>Easy</h3><hr><p>Given the <code>root</code> of a binary tree, <em>check whether it is a mirror of itself</em> (i.e., symmetric around its center).</p>
+# Symmetric Tree
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/symtree1.jpg" style="width: 354px; height: 291px;" />
-<pre>
-<strong>Input:</strong> root = [1,2,2,3,4,4,3]
-<strong>Output:</strong> true
-</pre>
+## Intuition
+A tree is symmetric if its left and right subtrees are mirror images. Check this recursively by comparing node values and cross-comparing subtrees.
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/symtree2.jpg" style="width: 308px; height: 258px;" />
-<pre>
-<strong>Input:</strong> root = [1,2,2,null,3,null,3]
-<strong>Output:</strong> false
-</pre>
+## Approach
+1. Create helper function isMirror(left, right)
+2. Base cases:
+   - If both are null, return true
+   - If one is null, return false
+   - If values differ, return false
+3. Recursive check:
+   - Check if left.left mirrors right.right
+   - Check if left.right mirrors right.left
+4. Return isMirror(root->left, root->right)
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li>The number of nodes in the tree is in the range <code>[1, 1000]</code>.</li>
-	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
-</ul>
-
-<p>&nbsp;</p>
-<strong>Follow up:</strong> Could you solve it both recursively and iteratively?
+## Complexity Analysis
+- **Time Complexity:** O(n) - visit each node once
+- **Space Complexity:** O(h) - recursion stack height

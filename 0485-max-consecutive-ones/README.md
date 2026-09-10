@@ -1,25 +1,16 @@
-<h2><a href="https://leetcode.com/problems/max-consecutive-ones">485. Max Consecutive Ones</a></h2><h3>Easy</h3><hr><p>Given a binary array <code>nums</code>, return <em>the maximum number of consecutive </em><code>1</code><em>&#39;s in the array</em>.</p>
+# Max Consecutive Ones
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Intuition
+Maintain a counter for consecutive ones. Reset counter to 0 when encountering 0.
 
-<pre>
-<strong>Input:</strong> nums = [1,1,0,1,1,1]
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
-</pre>
+## Approach
+1. Initialize cnt = 0, maxi = 0
+2. Iterate through array:
+   - If nums[i] == 1, increment cnt
+   - Else reset cnt to 0
+   - Update maxi with current cnt
+3. Return maxi
 
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,0,1,1,0,1]
-<strong>Output:</strong> 2
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>nums[i]</code> is either <code>0</code> or <code>1</code>.</li>
-</ul>
+## Complexity Analysis
+- **Time Complexity:** O(n) - single pass through array
+- **Space Complexity:** O(1) - only using variables
