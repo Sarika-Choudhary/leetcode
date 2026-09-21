@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Sarika-Choudhary/leetcode/tree/master/0002-add-two-numbers) |
+| [0258-add-digits](https://github.com/Sarika-Choudhary/leetcode/tree/master/0258-add-digits) |
 ## Recursion
 |  |
 | ------- |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/Sarika-Choudhary/leetcode/tree/master/0258-add-digits) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Sarika-Choudhary/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Knapsack Problem
 |  |
@@ -314,4 +316,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Sarika-Choudhary/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/Sarika-Choudhary/leetcode/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
