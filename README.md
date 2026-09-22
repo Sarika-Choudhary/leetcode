@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Sarika-Choudhary/leetcode/tree/master/0002-add-two-numbers) |
+| [0070-climbing-stairs](https://github.com/Sarika-Choudhary/leetcode/tree/master/0070-climbing-stairs) |
 | [0258-add-digits](https://github.com/Sarika-Choudhary/leetcode/tree/master/0258-add-digits) |
 ## Recursion
 |  |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Sarika-Choudhary/leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Sarika-Choudhary/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Sarika-Choudhary/leetcode/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/Sarika-Choudhary/leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sarika-Choudhary/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Sarika-Choudhary/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0416-partition-equal-subset-sum](https://github.com/Sarika-Choudhary/leetcode/tree/master/0416-partition-equal-subset-sum) |
@@ -320,4 +322,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/Sarika-Choudhary/leetcode/tree/master/0258-add-digits) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Sarika-Choudhary/leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
